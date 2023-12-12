@@ -1,0 +1,4 @@
+[submodule "Google_test/WalkAwake_Backend"]
+	path = Google_test/WalkAwake_Backend
+	url = https://github.com/Firrez/WalkAwake_Backend.git
+	branch = testing
