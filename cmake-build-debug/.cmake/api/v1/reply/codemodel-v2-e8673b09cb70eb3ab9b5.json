@@ -1,0 +1,311 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						3
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "Google_test/WalkAwake_Backend",
+					"childIndexes" : 
+					[
+						2
+					],
+					"jsonFile" : "directory-Google_test.WalkAwake_Backend-Debug-e32509cb648712ffa984.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "Google_test/WalkAwake_Backend",
+					"targetIndexes" : 
+					[
+						0,
+						6,
+						7,
+						8
+					]
+				},
+				{
+					"build" : "Google_test/WalkAwake_Backend/pybind11",
+					"jsonFile" : "directory-Google_test.WalkAwake_Backend.pybind11-Debug-01c8f701153677fbc05d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "Google_test/WalkAwake_Backend/pybind11"
+				},
+				{
+					"build" : "Google_test",
+					"childIndexes" : 
+					[
+						4
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-Google_test-Debug-711100fae5316ba37bb7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "Google_test"
+				},
+				{
+					"build" : "Google_test/lib",
+					"childIndexes" : 
+					[
+						5
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-Google_test.lib-Debug-20e9566c49c16e91155b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 4,
+					"source" : "Google_test/lib"
+				},
+				{
+					"build" : "Google_test/lib/googlemock",
+					"childIndexes" : 
+					[
+						6
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-Google_test.lib.googlemock-Debug-b9fc121ba122909cdf11.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 5,
+					"source" : "Google_test/lib/googlemock",
+					"targetIndexes" : 
+					[
+						2,
+						3
+					]
+				},
+				{
+					"build" : "Google_test/lib/googletest",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-Google_test.lib.googletest-Debug-dbdfeb5f5fd3c0c2ffc2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 6,
+					"source" : "Google_test/lib/googletest",
+					"targetIndexes" : 
+					[
+						4,
+						5
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						3
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "WalkAwakeGtest",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2
+					],
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "WalkAwake",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						6,
+						7,
+						8
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "pybind11",
+					"parentIndex" : 1
+				},
+				{
+					"childIndexes" : 
+					[
+						4
+					],
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "Google_tests",
+					"parentIndex" : 0
+				},
+				{
+					"childIndexes" : 
+					[
+						5
+					],
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "googletest-distribution",
+					"parentIndex" : 3
+				},
+				{
+					"childIndexes" : 
+					[
+						6
+					],
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "gmock",
+					"parentIndex" : 4,
+					"targetIndexes" : 
+					[
+						2,
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "gtest",
+					"parentIndex" : 5,
+					"targetIndexes" : 
+					[
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "WalkAwake::@60eb1652ce4b91667530",
+					"jsonFile" : "target-WalkAwake-Debug-ea3c9eefc50884ce6fab.json",
+					"name" : "WalkAwake",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "WalkAwakeGtest::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-WalkAwakeGtest-Debug-af4ef9ab8d4efacd5683.json",
+					"name" : "WalkAwakeGtest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "gmock::@894af0405e3bbb044288",
+					"jsonFile" : "target-gmock-Debug-d3826a0415d915d6df8e.json",
+					"name" : "gmock",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "gmock_main::@894af0405e3bbb044288",
+					"jsonFile" : "target-gmock_main-Debug-0db1513bd4c6df61dfdb.json",
+					"name" : "gmock_main",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "gtest::@c097e55f423dc0802346",
+					"jsonFile" : "target-gtest-Debug-f4df112fa4f7f9301b28.json",
+					"name" : "gtest",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "gtest_main::@c097e55f423dc0802346",
+					"jsonFile" : "target-gtest_main-Debug-f12ede6d8caad1389cb1.json",
+					"name" : "gtest_main",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "waAlarmLib::@60eb1652ce4b91667530",
+					"jsonFile" : "target-waAlarmLib-Debug-0868b9812e06d90e23ef.json",
+					"name" : "waAlarmLib",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "waCameraLib::@60eb1652ce4b91667530",
+					"jsonFile" : "target-waCameraLib-Debug-36ea6893f85863ef5df4.json",
+					"name" : "waCameraLib",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "waSettingsLib::@60eb1652ce4b91667530",
+					"jsonFile" : "target-waSettingsLib-Debug-bf05a9eeca58dbcac386.json",
+					"name" : "waSettingsLib",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/vboxuser/Documents/WalkAwakeGtest/cmake-build-debug",
+		"source" : "/home/vboxuser/Documents/WalkAwakeGtest"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

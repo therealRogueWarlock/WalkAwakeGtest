@@ -8,6 +8,6 @@ add_executable(WalkAwakeGtest Tests/AlarmManagerTest.cpp)
 include_directories(Google_test/WalkAwake_Backend)
 add_subdirectory(Google_test/WalkAwake_Backend)
 
-target_link_libraries(WalkAwakeGtest gtest gtest_main waSettingsLib waAlarmLib waCameraLib curl ao mpg123 pthread)
+target_link_libraries(WalkAwakeGtest gmock gtest gtest_main waSettingsLib waAlarmLib waCameraLib curl ao mpg123 pthread)
 
 add_subdirectory(Google_test)

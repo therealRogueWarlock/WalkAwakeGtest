@@ -1,0 +1,17 @@
+/snap/clion/259/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/snap/clion/259/bin/ninja/linux/x64/ninja -G Ninja -S /home/vboxuser/Documents/WalkAwakeGtest -B /home/vboxuser/Documents/WalkAwakeGtest/cmake-build-debug
+-- pybind11 v2.12.0 dev1
+CMake Warning (dev) at Google_test/WalkAwake_Backend/pybind11/tools/FindPythonLibsNew.cmake:101 (message):
+  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+  the cmake_policy command to set the policy and suppress this warning, or
+  preferably upgrade to using FindPython, either by calling it explicitly
+  before pybind11, or by setting PYBIND11_FINDPYTHON ON before pybind11.
+Call Stack (most recent call first):
+  Google_test/WalkAwake_Backend/pybind11/tools/pybind11Tools.cmake:50 (find_package)
+  Google_test/WalkAwake_Backend/pybind11/tools/pybind11Common.cmake:188 (include)
+  Google_test/WalkAwake_Backend/pybind11/CMakeLists.txt:222 (include)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Configuring done (0.1s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/vboxuser/Documents/WalkAwakeGtest/cmake-build-debug
